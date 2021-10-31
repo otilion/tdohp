@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "my-worker",
+  "name": "tdohp",
   "version": "1.0.0",
-  "description": "A template for kick starting a Cloudflare Workers project",
+  "description": "Temp DoH Proxy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
