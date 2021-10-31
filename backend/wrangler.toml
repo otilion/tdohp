@@ -1,0 +1,18 @@
+name = "tdohp"
+type = "javascript"
+
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2021-10-24"
+
+vars = { PROXY_TTL = 600, DEFAULT_SERVER = "https://cloudflare-dns.com/dns-query" }
+
+kv_namespaces = [
+         { binding = "DB", id = "37bf66b57031434f9b39493654af22c1" }
+]
+
+[triggers]
+crons = ["22 */1 * * *"]
+
